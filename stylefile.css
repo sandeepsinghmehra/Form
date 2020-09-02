@@ -1,0 +1,104 @@
+body{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container{
+    background-color: #1f4068;
+    padding: 30px;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+}
+.Cinput{
+    border-radius: 24px;
+    border-color: #535204;
+    background-color: #cedebd;
+    padding: 5px;
+    width: 70%;
+    color: #363636;
+    font-size: 24px;
+}
+input{
+    border-radius: 24px;
+    border-color: #535204;
+    background-color: #cedebd;
+    padding: 5px;
+}
+#gender, #nationality, #marital-status{
+    border-radius: 24px;
+    border-color: #535204;
+    background-color: #cedebd;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    color: #363636;
+    font-size: 24px;
+}
+label{
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 30px;
+    padding: 10px;
+    margin:10px;
+}
+h3{
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+th{
+    float: left;
+}
+
+
+.Dc{
+    float: right;
+} 
+
+button {
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding:5px;
+    margin:20px;
+    width: 15%;
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+  }  
+button:hover {
+    background-color: #4CAF50;
+    border-width: 1pt;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.Ccbutton{
+    background-color: #dd3322;
+    border-radius: 16px;
+
+}
+.Csbutton{
+    background-color: blue;
+    border-radius:16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 5px;
+   /* background-color: #2196F3;*/
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+  
+  /*.item2, .item4, .item6, .item8, .item10 {
+    grid-column: 2 / 3;
+  }*/

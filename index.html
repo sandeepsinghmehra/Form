@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylefile.css"> 
+    <title>Form</title>
+</head>
+<body>
+   <div class="container">
+    <form autocomplete="off">
+        <div class="grid-container">
+            <div class="item1">
+                  <label for="name">Your Name :</label>
+            </div>
+            <div class="item2">
+                  <input type="text" class="Cinput" placeholder="Enter Your Name..." required autofocus>
+            </div>
+            <div class="item3">
+                  <label for="father-name">Father Name :</label>
+            </div>
+            <div class="item4">
+                  <input type="text" class="Cinput" placeholder="Enter your Father Name..." required>
+            </div>
+            <div class="item5">
+                  <label for="address">Address :</label>
+            </div>
+            <div class="item6">
+                <input type="text" class="Cinput" placeholder="Enter your address" required></input><br>
+            </div>
+            <div class="item7">
+                <label for="phone-number">Phone-number :</label>
+            </div>
+            <div class="item8">
+                <input type="number" class="Cinput" placeholder="Phone Number" required>
+            </div>
+            <div class="item9">
+                <label for="email">E-mail :</label>
+            </div>
+            <div class="item10">
+                <input type="email" class="Cinput" placeholder="Enter your E-mail" required>
+            </div>
+            <div class="item11">
+                <label for="dob">DateOfBirth :</label>
+            </div>
+            <div class="item12">
+                <input type="date" class="Cinput"><br>
+            </div>
+            <div class="item13">
+                 <label for="gender">Gender : </label>
+                 <select name="gender" id="gender">
+                    <option value="male" id="male">Male</option>
+                    <option value="female" id="female">Female</option>
+                    <option value="other" id="other">Other</option>
+                 </select>
+            </div>
+            <div class="item14">
+                 <label for="marital-status">Marital Status :</label>
+                 <select name="marital-status" id="marital-status">
+                     <option value="married" id="married">Married</option>
+                     <option value="unmarried" id="unmarried">Unmarried</option>
+                 </select>
+            </div>
+            </div>
+        <label for="nationality">Nationality :</label>
+        <select name="nationality" id="nationality">
+            <option value="Indian" id="indian">Indian</option>
+        </select><br> 
+        <label for="language">Language Known</label>
+            <input type="checkbox" id="language1" name="language1" value="Hindi">
+                <label for="language1"> Hindi </label>
+            <input type="checkbox" id="language2" name="language2" value="English">
+                <label for="language2"> English </label>
+            <input type="checkbox" id="language3" name="language3" value="Sanskrit">
+                <label for="language3"> Sanskrit </label>
+            <input type="checkbox" id="language4" name="language4" value="Urdu">
+                <label for="language4">Urdu</label><br>
+        <button id="Sbutton" class="Csbutton" type="submit">Submit</button>
+        <button id="Cbutton" class="Ccbutton" type="reset">cancel</button>        
+    </form>
+   </div> 
+</body>
+</html>
